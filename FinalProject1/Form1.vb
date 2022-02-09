@@ -80,7 +80,6 @@ Public Class Form1
                     Using workbook As XLWorkbook = New XLWorkbook()
                         workbook.Worksheet.Add(Me.DataGridView1.Products.CopyTodataTable(), "Products")
                         workbook.SaveAs(sfd.FileName)
-
                     End Using
                     MessageBox.Show("Succesfuly added in Excel!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 Catch ex As Exception
