@@ -1,5 +1,5 @@
 ﻿Imports System.Drawing.Printing
-Imports System.DataTable
+Imports System.Data
 Imports Excel = Microsoft.Office.Interop.Excel
 Imports Microsoft.Office
 Imports Microsoft.Office.Interop
@@ -73,21 +73,8 @@ Public Class Form1
 
     End Sub
 
-    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
-        Using sfd As SaveFileDialog = New SaveFileDialog() With {.Filter = "Excel Workbook| *.xlsx"}
-            If sfd.ShowDialog() = DialogResult.OK Then
-                Try
-                    Using workbook As XLWorkbook = New XLWorkbook()
-                        workbook.Worksheet.Add(Me.DataGridView1.Products.CopyTodataTable(), "Products")
-                        workbook.SaveAs(sfd.FileName)
-                    End Using
-                    MessageBox.Show("Succesfuly added in Excel!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Catch ex As Exception
-                    MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                End Try
+    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) 
 
-            End If
-        End Using
     End Sub
 
     Private Sub SaveToExcel()

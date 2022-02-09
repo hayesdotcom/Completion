@@ -62,6 +62,9 @@
     <Reference Include="ExcelDataReader">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\1mpuzrid.ofr\AutoMLService\ExcelDataReader.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\..\..\..\Downloads\microsoft.office.interop.excel\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

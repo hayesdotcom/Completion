@@ -31,7 +31,6 @@ Partial Class Form1
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
         Me.btnNew = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel8 = New System.Windows.Forms.Panel()
@@ -135,7 +134,6 @@ Partial Class Form1
         Me.Panel6.Controls.Add(Me.btnPrint)
         Me.Panel6.Controls.Add(Me.btnReset)
         Me.Panel6.Controls.Add(Me.btnDelete)
-        Me.Panel6.Controls.Add(Me.btnUpdate)
         Me.Panel6.Controls.Add(Me.btnNew)
         Me.Panel6.Location = New System.Drawing.Point(13, 68)
         Me.Panel6.Name = "Panel6"
@@ -146,7 +144,7 @@ Partial Class Form1
         '
         Me.btnExit.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btnExit.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnExit.Location = New System.Drawing.Point(42, 216)
+        Me.btnExit.Location = New System.Drawing.Point(42, 204)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(93, 36)
         Me.btnExit.TabIndex = 5
@@ -157,7 +155,7 @@ Partial Class Form1
         '
         Me.btnPrint.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btnPrint.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnPrint.Location = New System.Drawing.Point(42, 174)
+        Me.btnPrint.Location = New System.Drawing.Point(42, 162)
         Me.btnPrint.Name = "btnPrint"
         Me.btnPrint.Size = New System.Drawing.Size(93, 36)
         Me.btnPrint.TabIndex = 4
@@ -168,7 +166,7 @@ Partial Class Form1
         '
         Me.btnReset.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btnReset.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(42, 132)
+        Me.btnReset.Location = New System.Drawing.Point(42, 115)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(93, 36)
         Me.btnReset.TabIndex = 3
@@ -179,31 +177,20 @@ Partial Class Form1
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btnDelete.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnDelete.Location = New System.Drawing.Point(42, 90)
+        Me.btnDelete.Location = New System.Drawing.Point(42, 70)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(93, 36)
         Me.btnDelete.TabIndex = 2
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
         '
-        'btnUpdate
-        '
-        Me.btnUpdate.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.btnUpdate.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnUpdate.Location = New System.Drawing.Point(42, 48)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(93, 36)
-        Me.btnUpdate.TabIndex = 1
-        Me.btnUpdate.Text = "Save"
-        Me.btnUpdate.UseVisualStyleBackColor = False
-        '
         'btnNew
         '
         Me.btnNew.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btnNew.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnNew.Location = New System.Drawing.Point(42, 6)
+        Me.btnNew.Location = New System.Drawing.Point(42, 24)
         Me.btnNew.Name = "btnNew"
-        Me.btnNew.Size = New System.Drawing.Size(93, 36)
+        Me.btnNew.Size = New System.Drawing.Size(93, 40)
         Me.btnNew.TabIndex = 0
         Me.btnNew.Text = "New"
         Me.btnNew.UseVisualStyleBackColor = False
